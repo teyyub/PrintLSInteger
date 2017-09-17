@@ -1,2 +1,2 @@
 # PrintLSInteger
-This program find minimum and maximum number from entered numbers
+This program find small and large number from entered numbers
