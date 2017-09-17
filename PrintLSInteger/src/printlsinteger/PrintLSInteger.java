@@ -15,24 +15,23 @@ public class PrintLSInteger {
      */
     public static void main(String[] args) {
 
-        
-   
-
         Scanner scan = new Scanner(System.in);
-        int number, i = 0, max=0,min=0;
-        min = scan.nextInt();
+        int currentNumber,howMany, i = 0, max ,min=Integer.MIN_VALUE; 
         max = min;
-        while (i < 4) {
-            number = scan.nextInt();             
-            if(number<min){
-                 min = number;
+        System.out.println("how many numbers!");
+        howMany = scan.nextInt();
+        while (i < howMany) {
+            currentNumber = scan.nextInt();             
+            if(currentNumber<min){
+                 min = currentNumber;
             } 
-             if(number>max){
-               max = number;
+             if(currentNumber>max){
+               max = currentNumber;
             }
             i++;
         }
         System.out.println("min="+min+" max= "+max); 
+//        memInfo();
 }
 
 }
