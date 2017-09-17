@@ -6,6 +6,7 @@ import java.util.Scanner;
  *
  * @author teyyub Sep 14, 2017
  */
+//dont use array
 public class PrintLSInteger {
 
     /**
